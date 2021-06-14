@@ -63,6 +63,10 @@ body{
    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6 );
  }
 
+ .input-container button:hover{
+     cursor: pointer;
+ }
+
  .task-container{
      display: flex;
      justify-content: center;
@@ -90,3 +94,6 @@ body{
      
  }
 
+.task-container .delete-task h4:hover{
+    cursor: pointer;
+}
