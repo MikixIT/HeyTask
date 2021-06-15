@@ -45,12 +45,12 @@ body{
 
     30%{
         color: rgba(231, 253, 219, 0.972); 
-        letter-spacing: 8px;
+        letter-spacing: 2px;
     }
 
     60%{
         color: red;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     90%{
@@ -58,7 +58,7 @@ body{
     }
     95%{
         color: black;
-        font-size: 36px;
+        font-size: 24px;
     }
 
     100%{
@@ -76,15 +76,15 @@ body{
 
 @keyframes justspacing{
     30%{
-        letter-spacing: 3px;
+        letter-spacing: 1px;
     }
 
     60%{
-        letter-spacing: 4px;
+        letter-spacing: 1px;
     }
 
     90%{
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     100%{
@@ -118,7 +118,7 @@ body{
  @keyframes zoom{
 
      90%{
-         font-size: 26px;
+         font-size: 24px;
      }
 
  }
