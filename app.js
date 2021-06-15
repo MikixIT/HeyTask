@@ -8,11 +8,12 @@ taskList.addEventListener('click', removeTask);
 
 function addTask(e){
     if (taskInput.value === "") {
-    alert('You have entered an empty task, enter the text!')    
+    alert('You have entered an empty task, enter the text!')
+    return    
     } 
 
+
     //Create <li> Item in HTML
-    
     const li = document.createElement('li');
     li.className = 'task';
 

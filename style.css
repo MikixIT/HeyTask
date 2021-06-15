@@ -52,22 +52,23 @@ body{
     padding: 5px;
     font-size: 28px;
      
- }
+}
 
- .input-container button{
+.input-container button{
    width:  20%;
    height: 20%;
-   background-color: rgb(116, 172, 32);
+   background-color: rgb(105, 155, 31);
    color: aliceblue; 
-   font-size: 20px;
+   font-size: 25px;
    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6 );
  }
 
- .input-container button:hover{
+.input-container button:hover{
      cursor: pointer;
+     background-color: rgb(105, 175, 01);
  }
 
- .task-container{
+.task-container{
      display: flex;
      justify-content: center;
      margin-top: 20px;
@@ -75,13 +76,13 @@ body{
      text-align: center;
  }
 
- .task-container h1{
+.task-container h1{
     margin-bottom: 50px;
 
  }
 
 
- .task-container li{
+.task-container li{
      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
      margin-top: 30px;
      margin-bottom: 20px;
@@ -96,4 +97,10 @@ body{
 
 .task-container .delete-task h4:hover{
     cursor: pointer;
-}
+ }
+
+ #task-list li{
+     font-size: 35px;
+     padding: 20px;
+     background-color: rgb(241, 240, 240);
+ }
