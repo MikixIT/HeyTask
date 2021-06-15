@@ -35,7 +35,7 @@ body{
 
 .input-container h1{
     margin-bottom: 30px;
-    animation: 6s colormulti 1;
+    animation: 3s colormulti 1;
 }
 
 @keyframes colormulti{
@@ -139,7 +139,7 @@ body{
 .task-container h1{
     margin-bottom: 50px;
     margin-top: 20px;
-    animation: ghost 3s 1;
+    animation: ghost 2s 1;
 
  }
 
@@ -187,5 +187,22 @@ body{
      font-size: 35px;
      padding: 20px;
      background-color: rgb(241, 240, 240);
+     animation: justspacingforli 3s 1;
+ }
+
+ @keyframes justspacingforli {
+     30% {
+         letter-spacing: 3px;
+         color: rgb(206, 211, 216);
+     }
+     60% {
+         letter-spacing: 2px;
+         color: rgb(192, 196, 200);
+     }
+     90% {
+         letter-spacing: 1px;
+         color: rgb(235, 238, 240);
+     }
+     
  }
 
