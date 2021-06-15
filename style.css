@@ -108,11 +108,12 @@ body{
 .input-container button{
    width:  20%;
    height: 20%;
-   background-color: rgb(105, 155, 31);
+   background-color: rgb(123, 180, 38);
    color: aliceblue; 
    font-size: 25px;
    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6 );
    animation: zoom 3s 1;
+   border-radius: 20px 20px ;
  }
 
  @keyframes zoom{
@@ -197,11 +198,11 @@ body{
      }
      60% {
          letter-spacing: 1px;
-         color: rgb(192, 196, 200);
+         color: rgb(218, 219, 219);
      }
      90% {
          letter-spacing: 0px;
-         color: rgb(235, 238, 240);
+         color: rgb(192, 196, 200);
      }
      
  }
