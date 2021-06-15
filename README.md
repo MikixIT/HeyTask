@@ -1,6 +1,6 @@
 # HeyTask
-A simple to do list (with minimal style) but extremely useful!
+A simple to do list (with minimal style) #but extremely useful!
 
-https://github.com/MikixIT/HeyTask/blob/main/CHEESE.gif
-
+# DESKTOP MODE
+![](CHEESE.gif)
 by MikixIT.
