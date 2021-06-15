@@ -34,8 +34,38 @@ body{
 }
 
 .input-container h1{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    animation: 6s colormulti 1;
 }
+
+@keyframes colormulti{
+    10%{
+        color: black;
+    }
+
+    30%{
+        color: white;
+    }
+
+    60%{
+        color: red;
+        font-size: 30px;
+    }
+
+    90%{
+        color: green;
+    }
+    95%{
+        color: black;
+        font-size: 36px;
+    }
+
+    100%{
+        color: black;
+
+    }
+}
+
 
 .input-container h2{
     margin: 20px;
@@ -61,6 +91,15 @@ body{
    color: aliceblue; 
    font-size: 25px;
    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.6 );
+   animation: zoom 3s 1;
+ }
+
+ @keyframes zoom{
+
+     90%{
+         font-size: 26px;
+     }
+
  }
 
 .input-container button:hover{
@@ -78,7 +117,30 @@ body{
 
 .task-container h1{
     margin-bottom: 50px;
+    margin-top: 20px;
+    animation: ghost 3s 1;
 
+ }
+
+ @keyframes ghost {     
+    
+    
+    30%{
+        display: flex;
+        font-size: 18px;
+        color: brown;
+    }
+    60%{
+        display: flex;
+        font-size: 20px;
+    }
+    90%{
+        font-size: 26px;
+        color: green;
+}
+
+
+     
  }
 
 
@@ -104,3 +166,4 @@ body{
      padding: 20px;
      background-color: rgb(241, 240, 240);
  }
+
