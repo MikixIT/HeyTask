@@ -1,10 +1,28 @@
 # HeyTask
-A simple to do list (with minimal style) but extremely useful!
 
-# DESKTOP MODE
+A minimalist to-do list app — clean, lightweight, but super effective.
+
+Built with vanilla JavaScript, HTML, and CSS. No frameworks, no clutter — just tasks.
+
+✅ Features
+	•	Add & remove tasks easily
+	•	Super lightweight and fast
+	•	Minimal UI for max focus
+	•	Works perfectly on desktop
+
+💻 Live Demo
+ DESKTOP MODE
 ![](CHEESE.gif)
 
-# TRY IT!
--> https://mikixit.github.io/HeyTask/
+---
+## 👉 [Try it here](mikixit.github.io/HeyTask/)
 
-# DEVELOPED BY MikixIT.
+🔧 Tech Stack
+	•	JavaScript (Vanilla)
+	•	HTML5
+	•	CSS3
+
+📦 About
+
+This is a tiny project I made to keep my tasks in check without distractions.
+Designed and developed by MikixIT.
