@@ -11,7 +11,7 @@ Built with vanilla JavaScript, HTML, and CSS. No frameworks, no clutter — just
 	•	Works perfectly on desktop
 
 💻 Live Demo
- DESKTOP MODE
+
 ![](CHEESE.gif)
 
 ---
