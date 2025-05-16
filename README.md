@@ -15,7 +15,7 @@ Built with vanilla JavaScript, HTML, and CSS. No frameworks, no clutter — just
 ![](CHEESE.gif)
 
 ---
-## 👉 [Try it here](mikixit.github.io/HeyTask/)
+## 👉 [Try it here](https://mikixit.github.io/HeyTask/)
 
 🔧 Tech Stack
 	•	JavaScript (Vanilla)
